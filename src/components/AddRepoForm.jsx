@@ -7,6 +7,7 @@ import api from "../lib/apiGraphQL";
 import {isValidRepoUrl} from "../lib/util";
 import {repoStatusCode} from "../lib/repoStatusCode";
 import {ErrorMessage} from "../styles/Typography";
+// this to see how the pipline is working
 
 function AddRepoForm({goalsId, onGoalAdded, goals}) {
   const urlRef = useRef(null);
